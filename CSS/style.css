@@ -1,0 +1,29 @@
+/*
+ GENERAL
+ */
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+/*
+  HEADER 
+ */
+.pattern{
+  background-color: #4EA0FF;
+  height: 50px;
+  background-image: url(../img/pattern.png);
+  background-size: contain;
+}
+
+.pattern span, h2{
+  padding: 5px;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.pattern span{
+  font-size: 12px;
+}
