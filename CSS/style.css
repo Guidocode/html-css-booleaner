@@ -6,6 +6,9 @@
   box-sizing: border-box;
 }
 
+ main, footer{
+   padding: 10px;
+ }
 
 /*
   HEADER 
@@ -24,17 +27,14 @@
 
 /*
    MAIN
- */
- main{
-   padding: 10px;
- }
+*/
 
  section{
    margin-top: 30px;
  }
 
  /* Credits */
-.credits{
+.greytext{
   color: #999999;
 }
 
@@ -70,3 +70,26 @@ th{
 }
 
 
+/* 
+  FOOTER 
+*/
+
+.footer-photo1, .footer-photo2{
+  width: 300px;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.footer-photo1{
+   background-image: url(../img/monitor.jpg);
+}
+
+.footer-photo2{
+   background-image: url(../img/graph.jpg);
+}
+
+.lorem-text{
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+}
