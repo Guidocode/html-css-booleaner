@@ -17,23 +17,10 @@
   background-size: contain;
 }
 
-.pattern span, h2{
-  color: white;
-  text-shadow: 2px 2px 4px black;
-  font-family: 'Courier New', Courier, monospace;
+.logo{
+  width: 300px;
+  margin-top: 20px;
 }
-
-.pattern span{
-  font-weight: bold;
-  font-size: 1.5rem;
-  padding: 30px;
-}
-
-.pattern h2{
-  font-size: 3.5rem;
-  padding: 10px;
-}
-
 
 /*
    MAIN
@@ -64,3 +51,22 @@
 .points p:before{
   content: "\2022";
 }
+
+
+/* Table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th{
+  background-color: #1FA9E5;
+  text-align: left;
+  width: 20%;
+}
+
+.color{
+  background-color: #B2E4F2;
+}
+
+
