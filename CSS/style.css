@@ -33,3 +33,34 @@
   font-size: 3.5rem;
   padding: 10px;
 }
+
+
+/*
+   MAIN
+ */
+ main{
+   padding: 10px;
+ }
+
+ section{
+   margin-top: 30px;
+ }
+
+ /* Credits */
+.credits{
+  color: #999999;
+}
+
+#booleaner{
+  color: #4EA0FF;
+}
+
+#date{
+  font-size: 15px;
+}
+
+
+/* Paragraphs */
+.points p:before{
+  content: "\2022";
+}
